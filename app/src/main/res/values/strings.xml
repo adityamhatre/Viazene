@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Viazene</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_product_view">ProductView</string>
+    <string name="title_activity_single_product_view">SingleProductView</string>
+    <string name="title_activity_ok">ok</string>
+    <string name="actionbar_title">ParallaxHeaderViewPager</string>
+    <string name="login">Login</string>
+    <string name="Error">Error</string>
+    <string name="Complete">Complete</string>
+    <string name="title_activity_match_maker">MatchMakerActivity</string>
+    <string name="title_activity_login_register">LoginRegisterActivity</string>
+    <string name="error_report">Email the report to developer</string>
+    <string name="app_domain_password">#(Fta=TI=PM@</string>
+    <string name="app_domain_username">androidApp</string>
+    <string name="twitter_key">gPUNDidvjF2MXDF7zokbEtPXB</string>
+    <string name="twitter_secret">AQt9NSNrLW36NKR3RkpVS76WmoMHFWMAr8EKqbTlOBdcfjWRkm</string>
+</resources>

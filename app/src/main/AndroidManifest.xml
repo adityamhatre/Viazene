@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thelogicalcoder.viazene">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:name=".Application.AppController"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppThemeLight">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SplashScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.ProductListView"
+            android:label="@string/title_activity_product_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SingleProductView"
+            android:label="@string/title_activity_single_product_view"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SingleProductAlertView"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.UserDialog" />
+        <activity
+            android:name=".Activities.MatchMakerActivity"
+            android:label="@string/title_activity_match_maker"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.LoginRegisterActivity"
+            android:label="@string/title_activity_login_register"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateUnchanged|adjustResize" />
+        <activity
+            android:name=".Activities.RegistrationWizard"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Activities.VerifyPhoneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ProductListViewFilter"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.BuyProductCOD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ViewAllProducts"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ChangeDP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.CrashActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ViewAllServices"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SingleServiceView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ServiceSearchActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="bb93e1fcb3675324a28d84b4fd86e54d5ff1caf0" />
+
+    </application>
+
+</manifest>

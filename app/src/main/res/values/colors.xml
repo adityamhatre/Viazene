@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="color_primary">#a820f7</color>-->
+    <!--<color name="color_primary_dark">#8217bf</color>-->
+
+    <!--my fav-->
+    <!--<color name="color_primary">#089fa4</color>
+    <color name="color_primary_dark">#078084</color>-->
+    <color name="color_primary">#6a2d56</color>
+    <color name="color_primary_dark">#481f3b</color>
+
+
+    <!--<color name="color_primary">#02aab0</color>
+    <color name="color_primary_dark">#02797d</color>-->
+
+
+
+
+    <!--<color name="color_primary">#e64e40</color>-->
+    <!--<color name="color_primary_dark">#c94438</color>-->
+
+    <color name="activity_main_row_title_color">#cccccc</color>
+
+    <color name="light_blue">#ff33b5e5</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="gray">#bdbdbd</color>
+
+    <!-- CardView -->
+    <color name="mdl_cardview_background">#fafafa</color>
+    <color name="mdl_cardview_image_left_title_color">#212121</color>
+    <color name="mdl_cardview_image_top_title_color">#ffffff</color>
+    <color name="mdl_cardview_normal_description_color">#212121</color>
+    <color name="mdl_cardview_image_left_description_color">#757575</color>
+    <color name="mdl_cardview_image_top_description_color">#212121</color>
+    <color name="mdl_cardview_normal_button_color">#212121</color>
+    <color name="mdl_cardview_highlight_button_color">#ffab40</color>
+    <color name="mdl_cardview_normal_button_ripple_color">#66999999</color>
+    <color name="mdl_cardview_separator_color">#dcdcdc</color>
+</resources>
